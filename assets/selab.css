@@ -10,3 +10,8 @@
 .pages div{
     padding-bottom: .5em;
 }
+
+footer {
+    position: fixed !important;
+    bottom: 0 !important;
+}
