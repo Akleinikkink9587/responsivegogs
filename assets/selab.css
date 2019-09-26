@@ -1,6 +1,6 @@
 /* put your css changes here */
 
-/*@import url("dark_theme.css");*/
+@import url("dark_theme.css");
 
 .pages label{
     padding-right: .5em;
@@ -15,3 +15,127 @@ footer {
     position: fixed !important;
     bottom: 0 !important;
 }
+
+.tabular .item {
+/* Repo tabs menu */
+    color: white !important;
+    background-color: black !important;
+}
+
+.ui.tabular.menu .active.item
+{
+    color: black !important;
+    background-color: white !important;
+}
+
+#repo-clone-https {
+    color: white !important;
+}
+
+#repo-clone-url {
+    color: white !important;
+}
+
+.time-since[title=""][data-content=""] {
+    color: white !important;
+}
+
+.ui.attached.header {
+    color: white !important;
+}
+
+.ui.breadcrumb a {
+    color: white !important;
+    background-color: black !important;
+}
+
+.ui.breadcrumb .divider {
+    background-color: black !important;
+    color: white !important;
+}
+
+.ui.basic.label {
+    background-color: yellow !important;
+    color: black !important;
+}
+
+.ui.header {
+    color: white !important;
+    background-color: black !important;
+}
+
+.ui.blue.label {
+    background-color: yellow !important;
+    color: black !important;
+}
+
+#repo-desc {
+    background-color: black !important;
+    color: white !important;
+}
+
+.ui .text.black {
+    background-color: black !important;
+    color: white !important;
+  }
+
+.ui.basic.button, .ui.basic.buttons .button {
+    background-color: black !important;
+    color: white !important;
+}
+
+.ui.dropdown .menu > .input:not(.transparent) input {
+    background-color: #080705 !important;
+    color: white !important;
+}
+
+.ui.menu .ui.dropdown .menu > .selected.item {
+    color: yellow !important;
+}
+
+a {
+    color: white !important;
+}
+
+.ui.table {
+    color: white !important;
+    /*background-color: rgb(90, 90, 90) !important;*/
+}
+
+tbody {
+    background-color: rgb(90, 90, 90) !important;
+}
+
+/*
+.markdown:not(code) .highlight pre,
+.markdown:not(code) pre {
+    background-color: rgb(90, 90, 90) !important;
+}
+*/
+
+pre, code {
+    background-color: rgb(90, 90, 90) !important;
+    color: white !important;
+}
+
+/*
+.markdown:not(code) pre code,
+.markdown:not(code) pre tt {
+    color: white !important;
+    background-color: rgb(90, 90, 90) !important;
+}
+*/
+
+#file-content h1,
+#file-content h2,
+#file-content h3,
+#file-content h4,
+#file-content h5 {
+  color: white !important;
+}
+
+.markdown:not(code) {
+    background-color: black !important;
+    color: white !important;
+  }
+  
