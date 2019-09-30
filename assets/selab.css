@@ -17,7 +17,6 @@ footer {
 }
 
 .tabular .item {
-/* Repo tabs menu */
     color: white !important;
     background-color: black !important;
 }
@@ -46,11 +45,11 @@ footer {
 
 .ui.breadcrumb a {
     color: white !important;
-    background-color: black !important;
+    background-color: #080705 !important;
 }
 
 .ui.breadcrumb .divider {
-    background-color: black !important;
+    background-color: #080705 !important;
     color: white !important;
 }
 
@@ -60,8 +59,24 @@ footer {
 }
 
 .ui.header {
+    color: yellow !important;
+    /*background-color: #080705 !important;*/
+}
+
+.fork-flag {
+    background-color: #080705 !important;
+}
+
+.breadcrumb {
+    background-color: #080705 !important;
+}
+
+.ui.menu .ui.dropdown .menu > .item {
     color: white !important;
-    background-color: black !important;
+}
+
+.following.bar .head.link.item {
+    color: white !important;
 }
 
 .ui.blue.label {
@@ -70,12 +85,11 @@ footer {
 }
 
 #repo-desc {
-    background-color: black !important;
+    background-color: #080705 !important;
     color: white !important;
 }
 
 .ui .text.black {
-    background-color: black !important;
     color: white !important;
   }
 
@@ -99,32 +113,16 @@ a {
 
 .ui.table {
     color: white !important;
-    /*background-color: rgb(90, 90, 90) !important;*/
 }
 
 tbody {
     background-color: rgb(90, 90, 90) !important;
 }
 
-/*
-.markdown:not(code) .highlight pre,
-.markdown:not(code) pre {
-    background-color: rgb(90, 90, 90) !important;
-}
-*/
-
 pre, code {
     background-color: rgb(90, 90, 90) !important;
     color: white !important;
 }
-
-/*
-.markdown:not(code) pre code,
-.markdown:not(code) pre tt {
-    color: white !important;
-    background-color: rgb(90, 90, 90) !important;
-}
-*/
 
 #file-content h1,
 #file-content h2,
@@ -137,5 +135,76 @@ pre, code {
 .markdown:not(code) {
     background-color: black !important;
     color: white !important;
-  }
+}
+
+
+.repository.file.list #git-stats {
+    background-color: #080705 !important;
+}
   
+#repo-desc div {
+    background-color: white !important;
+}
+
+.following.bar .top.menu a.item:hover,
+.following.bar .top.menu .dropdown.item:hover,
+.following.bar .top.menu .dropdown.item.active {
+  color: yellow!important;
+}
+
+.following.bar .top.menu a.item:hover {
+  color: yellow !important;
+}
+
+.ui.repository.list .item .ui.header .name:hover {
+    color: yellow !important;
+}
+
+tr:hover a {
+    color: yellow !important;
+}
+  
+#repo-files-table tr:hover {
+    color: yellow !important;
+}
+  
+#repo-files-table tr:hover span {
+    color: yellow !important;
+}
+
+.ui.dropdown .menu > .item:hover {
+    color: yellow !important;
+}
+
+.ui.link.menu .item:hover,
+.ui.menu .dropdown.item:hover,
+.ui.menu .link.item:hover,
+.ui.menu a.item:hover {
+    color: yellow !important;
+}
+
+.ui .dropdown .menu a:hover {
+    color: yellow !important;
+}
+
+.ui.button:hover {
+    color: yellow !important;
+}
+
+.ui.menu .ui.dropdown .menu > .item:hover {
+    color: yellow !important;
+}
+
+.ui.basic.button:hover,
+.ui.basic.buttons .button:hover {
+  color: yellow !important;
+}
+
+.ui.user.list .item .description a:hover {
+    color: yellow !important;
+}
+
+a.ui.label:hover {
+    background-color: #1c1c1c !important;
+    color: yellow !important;
+}
