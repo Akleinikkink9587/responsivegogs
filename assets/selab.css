@@ -208,3 +208,7 @@ a.ui.label:hover {
     background-color: #1c1c1c !important;
     color: yellow !important;
 }
+
+.repository .head .mega-octicon {
+    color: yellow !important;
+}
